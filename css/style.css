@@ -528,17 +528,18 @@ body {
     border-radius: 100%;
     border: 6px solid #f55f8d;
     z-index: 1;
-    left: 0px;
-    top: 3px;
+    left: 5px;
+    top: 15px;
     transform: translateY(50%);
     transition: all 0.5s;
 }
 /* .test__pic:hover img{
     transform: translateY(0);
-} */
-.trans img{
-    transform: translateY(0);
 }
+.test__pic:hover .shape__div{
+    opacity: 1;
+} */
+
 .test__pic .shape__div:before,.shape__div:after{
     content: "";
     height: 15px;
@@ -571,9 +572,6 @@ body {
     transition: all 1s;
 
 }
-/* .test__pic:hover .shape__div{
-    opacity: 1;
-} */
 
 @keyframes upDown {
   /* 0%{

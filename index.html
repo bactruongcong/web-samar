@@ -622,13 +622,32 @@
       });
     </script>
     <script>
-      function Myfunction() {
-        var mainDiv = document.getElementById("main-div");
-        var mainTestDiv = mainDiv.getElementsByClassName("test__pic");
-        var imgTrans = mainTestDiv[0].getElementsByTagName("img")[0];
-        console.log(imgTrans);
-      }
-      Myfunction();
+      let testPic = document.getElementsByClassName("test__pic");
+      console.log(testPic);
+        for(let i = 0; i < testPic.length; i++){
+          testPic[i].addEventListener("click", function(){
+                console.log("for:" +i);
+                checkArray(testPic,i);
+            });
+        }
+        function checkArray(testPica,index){
+            let arrayA = new Array;
+            arrayA = testPica;
+            for(let i = 0; i < arrayA.length ; i++){
+              if(i == index){
+                var imgTag = arrayA[i].getElementsByTagName("img");
+                var divTag = arrayA[i].getElementsByTagName("div");
+                imgTag[0].style = "transform: translateY(0);"
+                divTag[0].style = "opacity: 1;"
+              }else{
+                var imgTag = arrayA[i].getElementsByTagName("img");
+                var divTag = arrayA[i].getElementsByTagName("div");
+                imgTag[0].style = "transform: translateY(50%);"
+                divTag[0].style = "opacity: 0;"
+              }
+            }
+        }
+
     </script>
   </body>
 </html>
