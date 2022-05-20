@@ -488,81 +488,92 @@
     </section>
     <!-- TESTIMONIAL  -->
     <section class="testimonial">
-      <!-- SWIPER  -->
-      <div
-        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-        class="swiper mySwiper2"
-      >
-        <!-- TOP thumnail -->
-        <div thumbsSlider="" class="swiper mySwiper">
-          <div id="main-div" class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="test__pic">
-                <img src="./image/pic1_4.jpg" alt="" />
-                <div class="shape__div"></div>
+      <div class="container">
+        <header class="heder_testi">
+          <p class="title__top">Testimonial</p>
+          <h2 class="headding__top">What Our Clients Say’s
+          </h2>
+        </header>
+        <!-- SWIPER  -->
+        <div
+          style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+          class="swiper mySwiper2"
+        >
+          <!-- TOP thumnail -->
+          <div thumbsSlider="" class="thumnail__swiper swiper mySwiper">
+            <div id="main-div" class="swiper-wrapper">
+              <div class="swp-slide-size swiper-slide">
+                <div class="test__pic">
+                  <img src="./image/pic1_4.jpg" alt="" />
+                  <div class="shape__div"></div>
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="test__pic">
-                <img src="./image/pic2_3.jpg" alt="" />
-                <div class="shape__div"></div>
+              <div class="swp-slide-size swiper-slide">
+                <div class="test__pic">
+                  <img src="./image/pic2_3.jpg" alt="" />
+                  <div class="shape__div"></div>
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="test__pic">
-                <img src="./image/pic3_3.jpg" alt="" />
-                <div class="shape__div"></div>
+              <div class="swp-slide-size swiper-slide">
+                <div class="test__pic">
+                  <img src="./image/pic3_3.jpg" alt="" />
+                  <div class="shape__div"></div>
+                </div>
               </div>
             </div>
           </div>
+          <!-- BOT thumnail -->
+          <div class="swiper-wrapper ">
+            <div class="swiper-slide ">
+              <div class="feedback">
+                <i class="fa-solid fa-quote-left"></i>
+                <h2>Cak Dikin 1</h2>
+                <p class="test__rank">CEO & Founder</p>
+                <p>
+                  Duis feugiat est tincidunt ligula maximus convallis. Aenean
+                  ultricies, mi non vestibulum auctor, erat tortor porttitor
+                  ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
+                  erat.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide ">
+              <div class="feedback">
+                <i class="fa-solid fa-quote-left"></i>
+                <h2>Cak Dikin 1</h2>
+                <p class="test__rank">CEO & Founder</p>
+                <p>
+                  Duis feugiat est tincidunt ligula maximus convallis. Aenean
+                  ultricies, mi non vestibulum auctor, erat tortor porttitor
+                  ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
+                  erat.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide ">
+              <div class="feedback">
+                <i class="fa-solid fa-quote-left"></i>
+                <h2>Cak Dikin 1</h2>
+                <p class="test__rank">CEO & Founder</p>
+                <p>
+                  Duis feugiat est tincidunt ligula maximus convallis. Aenean
+                  ultricies, mi non vestibulum auctor, erat tortor porttitor
+                  ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
+                  erat.
+                </p>
+              </div>
+            </div>
+    
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
-        <!-- BOT thumnail -->
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="feedback">
-              <i class="fa-solid fa-quote-left"></i>
-              <h2>Cak Dikin 1</h2>
-              <p class="test__rank">CEO & Founder</p>
-              <p>
-                Duis feugiat est tincidunt ligula maximus convallis. Aenean
-                ultricies, mi non vestibulum auctor, erat tortor porttitor
-                ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
-                erat.
-              </p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="feedback">
-              <i class="fa-solid fa-quote-left"></i>
-              <h2>Cak Dikin 1</h2>
-              <p class="test__rank">CEO & Founder</p>
-              <p>
-                Duis feugiat est tincidunt ligula maximus convallis. Aenean
-                ultricies, mi non vestibulum auctor, erat tortor porttitor
-                ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
-                erat.
-              </p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="feedback">
-              <i class="fa-solid fa-quote-left"></i>
-              <h2>Cak Dikin 1</h2>
-              <p class="test__rank">CEO & Founder</p>
-              <p>
-                Duis feugiat est tincidunt ligula maximus convallis. Aenean
-                ultricies, mi non vestibulum auctor, erat tortor porttitor
-                ipsum, nec dictum tortor sem eget nunc. Etiam sed facilisis
-                erat.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-pagination"></div>
+
       </div>
     </section>
     <!-- BLOG  -->
-    <section class="blog"></section>
+    <section class="blog">
+      <p>Blog</p>
+    </section>
     <!-- FOOTER  -->
     <footer></footer>
 
@@ -637,12 +648,12 @@
               if(i == index){
                 var imgTag = arrayA[i].getElementsByTagName("img");
                 var divTag = arrayA[i].getElementsByTagName("div");
-                imgTag[0].style = "transform: translateY(0);"
+                imgTag[0].style = "transform: translate(-50%,0%);"
                 divTag[0].style = "opacity: 1;"
               }else{
                 var imgTag = arrayA[i].getElementsByTagName("img");
                 var divTag = arrayA[i].getElementsByTagName("div");
-                imgTag[0].style = "transform: translateY(50%);"
+                imgTag[0].style = "transform: translate(-50%,50%);"
                 divTag[0].style = "opacity: 0;"
               }
             }
