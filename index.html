@@ -507,19 +507,19 @@
           <!-- TOP thumnail -->
           <div thumbsSlider="" class="thumnail__swiper swiper mySwiper">
             <div id="main-div" class="swiper-wrapper">
-              <div class="swp-slide-size swiper-slide">
+              <div class="swiper-slide">
                 <div class="test__pic">
                   <img src="./image/pic1_4.jpg" alt="" />
                   <div class="shape__div"></div>
                 </div>
               </div>
-              <div class="swp-slide-size swiper-slide">
+              <div class="swiper-slide">
                 <div class="test__pic">
                   <img src="./image/pic2_3.jpg" alt="" />
                   <div class="shape__div"></div>
                 </div>
               </div>
-              <div class="swp-slide-size swiper-slide">
+              <div class="swiper-slide">
                 <div class="test__pic">
                   <img src="./image/pic3_3.jpg" alt="" />
                   <div class="shape__div"></div>
@@ -910,33 +910,29 @@
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
-        loop: false,
+        loop: true,
         spaceBetween: 10,
-        slidesPerView: 4,
+        slidesPerView: 3,
         freeMode: true,
-        watchSlidesProgress: true,
+        centeredSlides: true,
+        autoplay:true,
+        speed: 3000,
       });
       var swiper2 = new Swiper(".mySwiper2", {
-        loop: false,
+        loop: true,
         spaceBetween: 10,
+        autoplay:true,
+        speed:3000,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
         thumbs: {
           swiper: swiper,
         },
-        // autoplay: {
-        //   delay: 1000,
-        //   disableOnInteraction: false,
-        // },
       });
     </script>
-    <script>
+    <!-- <script>
       let testPic = document.getElementsByClassName("test__pic");
       console.log(testPic);
       for (let i = 0; i < testPic.length; i++) {
@@ -962,6 +958,6 @@
           }
         }
       }
-    </script>
+    </script> -->
   </body>
 </html>
