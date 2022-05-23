@@ -709,7 +709,175 @@
       </div>
     </section>
     <!-- FOOTER  -->
-    <footer></footer>
+    <footer>
+      <section class="form-container">
+        <header class="footer__top">
+          <h2 class="headding__top">Subscribe To Our Newsletter</h2>
+          <form action="#">
+            <input type="text" placeholder="Your Email Address" />
+            <button class="btn__gradient">
+              <i class="fa-solid fa-plane"></i>
+            </button>
+          </form>
+        </header>
+        <div class="footer__bottom">
+          <div class="footer__item">
+            <a href="#">
+              <img src="./image/logo-white.png" alt="" />
+            </a>
+            <ul class="contact__list">
+              <li>
+                <i class="fa fa-phone"></i>
+                <span>
+                  1800-123-4567
+                  <br />
+                  +91 987-654-3210
+                </span>
+              </li>
+              <li>
+                <i class="fa fa-envelope"></i>
+                <span>
+                  info@example.com
+                  <br />
+                  services@gmail.com
+                </span>
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span>
+                  Demo Address #8901 Marmora
+                  <br />
+                  Road City
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h3>Our links</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Team
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h3>Our Services</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Strategy &amp; Research
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Web Development
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Web Solution
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Digital Marketing
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  App Design
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h3>Other links</h3>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Portfolio
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Terms &amp; Conditions
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-angle-right"></i>
+                  Support
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="footer__copyright">
+        <div class="container">
+          <div class="footer__left">
+            Copyright © 2021 <span>DexignZone</span> . All rights reserved.
+          </div>
+          <div class="footer__right">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- JQUERY -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
@@ -723,48 +891,23 @@
       $(".owl-carousel").owlCarousel({
         loop: true,
         margin: 10,
-        dots:false,
+        dots: false,
         nav: false,
         responsive: {
           0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 3
-                }
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
         },
       });
     </script>
     <!-- SWIPER JS -->
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <!-- <script>
-
-      const swiper = new Swiper(".swiper", {
-        // Optional parameters
-        direction: "vertical",
-        loop: true,
-
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar",
-        },
-       
-      });
-    </script> -->
     <script>
       var swiper = new Swiper(".mySwiper", {
         loop: false,
