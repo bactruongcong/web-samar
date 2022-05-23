@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- FLATICON -->
+    <link rel="stylesheet" href="./css/flaticon.css">
     <!-- OWL CSS -->
     <link rel="stylesheet" href="./css/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
@@ -38,7 +40,7 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header>
+    <header class="header__body">
       <div class="header__content container">
         <div class="header__logo">
           <a href="#"><img src="./image/logo-2.png" alt="logo-2" /></a>
@@ -120,7 +122,7 @@
       </div>
     </section>
     <!-- SERVICES  -->
-    <section class="services">
+    <section class="services section__padding__top">
       <div class="container">
         <div class="service__title">
           <p class="title__top">What We Do Best</p>
@@ -173,7 +175,7 @@
       </div>
     </section>
     <!-- ABOUT US -->
-    <section class="about">
+    <section class="about section__padding__top">
       <div class="container">
         <div class="about__content">
           <div class="about__left animate__animated animate__fadeInLeft">
@@ -220,41 +222,64 @@
     <section class="number">
       <div class="number__content container">
         <div class="number__item">
-          <i class="fa-regular fa-face-smile"></i>
-          <p>18 ML</p>
+          <i class="flaticon-smile"></i>
+          <p>
+            <span class="counter">18</span>
+            <span>ML</span>
+          </p>
           <p>Satisfied Clients</p>
         </div>
         <div class="number__item">
-          <i class="fa-regular fa-display-code"></i>
-          <p>20 Ml</p>
+          <i class="flaticon-line-chart"></i>
+          <p>
+            <span class="counter">20</span>
+            <span>ML</span>
+          </p>
           <p>Project Completed</p>
         </div>
         <div class="number__item">
-          <i class="fa-regular fa-rocket-launch"></i>
-          <p>30 Ml</p>
+          <i class="flaticon-startup"></i>
+           <p>
+            <span class="counter">30</span>
+            <span>ML</span>
+          </p>
           <p>Project Lunched</p>
         </div>
         <div class="number__item">
-          <i class="fa-solid fa-party-horn"></i>
-          <p>50</p>
+          <i class="flaticon-confetti"></i>
+          <p class="counter">50</p>
           <p>Years Completed</p>
         </div>
       </div>
     </section>
     <!-- FEATURES -->
-    <section class="features">
+    <section class="features section__padding__top">
       <div class="features__content container">
         <div class="features__left">
           <p class="title__top">Our Features</p>
-          <h2 class="headding__top">Behind The Story Of Samar Agency</h2>
+          <h2 class="headding__top">Behind The Story <br>Of Samar Agency</h2>
+          <div class="features__items">
+            <div class="features__item">
+                <div class="ft__left">
+                  <i class="flaticon-idea"></i>
+                </div>
+                <div class="ft__right">
+                  <h3>Idea & Analysis Gathering</h3>
+                  <p>
+                    Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
+                    leo, sit amet consequat augue.
+                  </p>
+                </div>
+             
+            </div>
+          </div>
           <div class="features__items">
             <div class="features__item">
               <div class="ft__left">
-                <i class="fa-solid fa-id-card-clip"></i>
+                <i class="flaticon-coding"></i>
               </div>
               <div class="ft__right">
                 <h3>Idea & Analysis Gathering</h3>
-
                 <p>
                   Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
                   leo, sit amet consequat augue.
@@ -265,21 +290,7 @@
           <div class="features__items">
             <div class="features__item">
               <div class="ft__left">
-                <i class="fa-solid fa-id-card-clip"></i>
-              </div>
-              <div class="ft__right">
-                <h3>Idea & Analysis Gathering</h3>
-                <p>
-                  Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
-                  leo, sit amet consequat augue.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="features__items">
-            <div class="features__item">
-              <div class="ft__left">
-                <i class="fa-solid fa-id-card-clip"></i>
+                <i class="flaticon-rocket"></i>
               </div>
               <div class="ft__right">
                 <h3>Idea & Analysis Gathering</h3>
@@ -299,7 +310,7 @@
       </div>
     </section>
     <!-- PORTFOLIO -->
-    <section class="portfolio">
+    <section class="portfolio section__padding__top">
       <div class="portfolio__content container">
         <div class="portfolio__content__title">
           <p class="title__top">Portfolio</p>
@@ -382,7 +393,7 @@
       </div>
     </section>
     <!-- PLAN -->
-    <section class="plan">
+    <section class="plan section__padding__top">
       <div class="plan__content container">
         <p class="title__top">Choose Your Plan</p>
         <h2 class="headding__top">Choose Your Plan</h2>
@@ -424,7 +435,7 @@
             <div class="plan__item__content">
               <div class="plan__img">
                 <h3>Basic Plan</h3>
-                <img src="./image/pic4_1.jpg" alt="" />
+                <img src="./image/pic5_1.jpg" alt="">
                 <p><span>$49</span>/Month</p>
               </div>
               <div class="plan__info content_left">
@@ -457,7 +468,7 @@
             <div class="plan__item__content">
               <div class="plan__img">
                 <h3>Basic Plan</h3>
-                <img src="./image/pic4_1.jpg" alt="" />
+                <img src="./image/pic6_1.jpg" alt="">
                 <p><span>$49</span>/Month</p>
               </div>
               <div class="plan__info content_left">
@@ -529,9 +540,9 @@
           </div>
           <!-- BOT thumnail -->
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide sw-lide2">
               <div class="feedback">
-                <i class="fa-solid fa-quote-left"></i>
+                <i class="flaticon-quotation"></i>
                 <h2>Cak Dikin 1</h2>
                 <p class="test__rank">CEO & Founder</p>
                 <p>
@@ -542,9 +553,9 @@
                 </p>
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide sw-lide2">
               <div class="feedback">
-                <i class="fa-solid fa-quote-left"></i>
+                <i class="flaticon-quotation"></i>
                 <h2>Cak Dikin 1</h2>
                 <p class="test__rank">CEO & Founder</p>
                 <p>
@@ -555,9 +566,9 @@
                 </p>
               </div>
             </div>
-            <div class="swiper-slide">
+            <div class="swiper-slide sw-lide2">
               <div class="feedback">
-                <i class="fa-solid fa-quote-left"></i>
+                <i class="flaticon-quotation"></i>
                 <h2>Cak Dikin 1</h2>
                 <p class="test__rank">CEO & Founder</p>
                 <p>
@@ -885,6 +896,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <!-- JQUERY  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Jquery waypoints import duoi thu vien jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- OWL JS -->
     <script src="./js/owl.carousel.min.js"></script>
     <script>
@@ -959,5 +978,10 @@
         }
       }
     </script> -->
+ <!-- CountUp js -->
+ <script src="./js/jquery.countup.min.js"></script>
+ <script>
+     $('.counter').countUp();
+ </script>
   </body>
 </html>
