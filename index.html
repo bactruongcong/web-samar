@@ -11,17 +11,22 @@
       rel="stylesheet"
     />
     <!-- FLATICON -->
-    <link rel="stylesheet" href="./css/flaticon.css">
+    <link rel="stylesheet" href="./css/flaticon.css" />
     <!-- OWL CSS -->
     <link rel="stylesheet" href="./css/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <!-- FONT-AWSOME -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+    <!-- LINE-FONT-AWSOME  -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
     />
     <!-- ANIMATE CSS  -->
     <link
@@ -83,21 +88,25 @@
       <div class="carousel__content container">
         <div class="carousel__left">
           <div class="carousel__title">
-            <p class="title__top animate__animated animate__fadeInUp">
+            <p class="title__top wow animate__animated animate__fadeInUp">
               We are The Best
             </p>
           </div>
           <div class="carousel__left__content content_left">
             <h2
-              class="headding__top animate__animated animate__fadeInUp animate__delay-1s"
+              class="headding__top wow animate__animated animate__fadeInUp animate__delay-1s"
             >
               Freelance Product Designer Running
             </h2>
-            <p class="animate__animated animate__fadeInUp animate__delay-2s">
+            <p
+              class="wow animate__animated animate__fadeInUp animate__delay-2s"
+            >
               We develop the relationships that underpin the next phase in your
               organisation’s growth.
             </p>
-            <ul class="animate__animated animate__fadeInUp animate__delay-3s">
+            <ul
+              class="wow animate__animated animate__fadeInUp animate__delay-3s"
+            >
               <li>
                 <i class="fa-solid fa-check"></i>Master's degree in designing
               </li>
@@ -106,7 +115,7 @@
               </li>
             </ul>
             <button
-              class="btn__gradient animate__animated animate__fadeInUp animate__delay-4s"
+              class="wow btn__gradient animate__animated animate__fadeInUp animate__delay-4s"
             >
               GET STARTED
             </button>
@@ -114,7 +123,7 @@
         </div>
         <div class="carousel__right">
           <div
-            class="carousel__right__img animate__animated animate__fadeInUp animate__delay-3s"
+            class="carousel__right__img wow animate__animated animate__fadeInUp animate__delay-3s"
           >
             <img src="./image/pic3_1.png" alt="pic3_1" />
           </div>
@@ -178,10 +187,18 @@
     <section class="about section__padding__top">
       <div class="container">
         <div class="about__content">
-          <div class="about__left animate__animated animate__fadeInLeft">
+          <div
+            class="about__left wow animate__animated animate__fadeInLeft"
+            data-wow-duration="2s"
+            data-wow-delay="0.2s"
+          >
             <img src="./image/pic1.jpg" alt="" />
           </div>
-          <div class="about__right animate__animated animate__fadeInRight">
+          <div
+            class="about__right wow animate__animated animate__fadeInRight"
+            data-wow-duration="2s"
+            data-wow-delay="0.2s"
+          >
             <div class="about__right__title">
               <p class="title__top">About Us</p>
             </div>
@@ -239,7 +256,7 @@
         </div>
         <div class="number__item">
           <i class="flaticon-startup"></i>
-           <p>
+          <p>
             <span class="counter">30</span>
             <span>ML</span>
           </p>
@@ -256,24 +273,39 @@
     <section class="features section__padding__top">
       <div class="features__content container">
         <div class="features__left">
-          <p class="title__top">Our Features</p>
-          <h2 class="headding__top">Behind The Story <br>Of Samar Agency</h2>
-          <div class="features__items">
+          <div
+            class="wow animate__animated animate__fadeInLeft"
+            data-wow-duration="2s"
+            data-wow-delay="0.2s"
+          >
+            <p class="title__top">Our Features</p>
+            <h2 class="headding__top">
+              Behind The Story <br />Of Samar Agency
+            </h2>
+          </div>
+          <div
+            class="features__items wow animate__animated animate__fadeInRight"
+            data-wow-duration="2s"
+            data-wow-delay="0.4s"
+          >
             <div class="features__item">
-                <div class="ft__left">
-                  <i class="flaticon-idea"></i>
-                </div>
-                <div class="ft__right">
-                  <h3>Idea & Analysis Gathering</h3>
-                  <p>
-                    Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
-                    leo, sit amet consequat augue.
-                  </p>
-                </div>
-             
+              <div class="ft__left">
+                <i class="flaticon-idea"></i>
+              </div>
+              <div class="ft__right">
+                <h3>Idea & Analysis Gathering</h3>
+                <p>
+                  Maecenas laoreet efficitur sagittis. Aliquam eleifend nisl
+                  leo, sit amet consequat augue.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="features__items">
+          <div
+            class="features__items wow animate__animated animate__fadeInRight"
+            data-wow-duration="2s"
+            data-wow-delay="0.6s"
+          >
             <div class="features__item">
               <div class="ft__left">
                 <i class="flaticon-coding"></i>
@@ -287,7 +319,11 @@
               </div>
             </div>
           </div>
-          <div class="features__items">
+          <div
+            class="features__items wow animate__animated animate__fadeInRight"
+            data-wow-duration="2s"
+            data-wow-delay="0.8s"
+          >
             <div class="features__item">
               <div class="ft__left">
                 <i class="flaticon-rocket"></i>
@@ -317,7 +353,9 @@
           <h2 class="headding__top">Our Latest Work</h2>
         </div>
         <div class="portfolio__items">
-          <div class="pfl__item pfl__it1">
+          <div
+            class="pfl__item pfl__it1 wow animate__animated animate__fadeInUp"
+          >
             <img src="./image/pic1_2.jpg" alt="" />
             <div class="overplay">
               <div class="overplay__icon">
@@ -329,7 +367,7 @@
               </div>
             </div>
           </div>
-          <div class="pfl__item">
+          <div class="pfl__item wow animate__animated animate__fadeInUp">
             <img src="./image/pic2_1.jpg" alt="" />
             <div class="overplay">
               <div class="overplay__icon">
@@ -341,7 +379,9 @@
               </div>
             </div>
           </div>
-          <div class="pfl__item">
+          <div
+            class="pfl__item wow animate__animated animate__fadeInUp animate__delay-1s"
+          >
             <img src="./image/pic3_1.jpg" alt="" />
             <div class="overplay">
               <div class="overplay__icon">
@@ -353,7 +393,9 @@
               </div>
             </div>
           </div>
-          <div class="pfl__item">
+          <div
+            class="pfl__item wow animate__animated animate__fadeInUp animate__delay-1s"
+          >
             <img src="./image/pic4.jpg" alt="" />
             <div class="overplay">
               <div class="overplay__icon">
@@ -365,7 +407,9 @@
               </div>
             </div>
           </div>
-          <div class="pfl__item pfl__it5">
+          <div
+            class="pfl__item pfl__it5 wow animate__animated animate__fadeInUp animate__delay-2s"
+          >
             <img src="./image/pic5.jpg" alt="" />
             <div class="overplay">
               <div class="overplay__icon">
@@ -377,7 +421,9 @@
               </div>
             </div>
           </div>
-          <div class="pfl__item pfl__it6">
+          <div
+            class="pfl__item pfl__it6 wow animate__animated animate__fadeInUp animate__delay-1s"
+          >
             <img src="./image/pic6.jpg" alt="" />
             <div class="overplay">
               <div class="overplay__icon">
@@ -435,7 +481,7 @@
             <div class="plan__item__content">
               <div class="plan__img">
                 <h3>Basic Plan</h3>
-                <img src="./image/pic5_1.jpg" alt="">
+                <img src="./image/pic5_1.jpg" alt="" />
                 <p><span>$49</span>/Month</p>
               </div>
               <div class="plan__info content_left">
@@ -468,7 +514,7 @@
             <div class="plan__item__content">
               <div class="plan__img">
                 <h3>Basic Plan</h3>
-                <img src="./image/pic6_1.jpg" alt="">
+                <img src="./image/pic6_1.jpg" alt="" />
                 <p><span>$49</span>/Month</p>
               </div>
               <div class="plan__info content_left">
@@ -585,12 +631,12 @@
       </div>
     </section>
     <!-- BLOG  -->
-    <section class="blog">
-      <header>
-        <p class="title__top">Our Blog</p>
-        <h2 class="headding__top">Latest News & Blog</h2>
-      </header>
-      <div class="blog__container">
+    <section class="blog section__padding__top">
+      <div class="blog__container container">
+        <header>
+          <p class="title__top">Our Blog</p>
+          <h2 class="headding__top">Latest News & Blog</h2>
+        </header>
         <div class="owl-carousel owl-theme">
           <div class="item">
             <div class="blog__item">
@@ -611,12 +657,12 @@
                 </div>
                 <div class="item__footer">
                   <div class="item__footer__author">
-                    <i class="fa-solid fa-user"></i>
+                    <i class="las la-user-circle"></i>
                     <span>BY</span>
                     <span>JOHNE DOE</span>
                   </div>
                   <div class="item__footer__comment">
-                    <i class="fa-solid fa-comment"></i>
+                    <i class="las la-comment"></i>
                     <span>COMMENT 15</span>
                   </div>
                 </div>
@@ -624,6 +670,70 @@
             </div>
           </div>
           <div class="item">
+            <div class="blog__item">
+              <div class="blogItem__container">
+                <div class="item__header">
+                  <img src="./image/pic2.jpg" alt="" />
+                  <div class="item__date">
+                    <span>23 MARCH 2022</span>
+                  </div>
+                </div>
+
+                <div class="item__main">
+                  <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                  <p>
+                    Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
+                    ac aliquam. Phasellus justo
+                  </p>
+                </div>
+                <div class="item__footer">
+                  <div class="item__footer__author">
+                    <i class="las la-user-circle"></i>
+                    <span>BY</span>
+                    <span>JOHNE DOE</span>
+                  </div>
+                  <div class="item__footer__comment">
+                    <i class="las la-comment"></i>
+                    <span>COMMENT 15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="blog__item">
+              <div class="blogItem__container">
+                <div class="item__header">
+                  <img src="./image/pic3.jpg" alt="" />
+                  <div class="item__date">
+                    <span>23 MARCH 2022</span>
+                  </div>
+                </div>
+
+                <div class="item__main">
+                  <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                  <p>
+                    Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
+                    ac aliquam. Phasellus justo
+                  </p>
+                </div>
+                <div class="item__footer">
+                  <div class="item__footer__author">
+                    <p>
+                      <i class="las la-user-circle"></i>
+                      <span>BY</span>
+                      <span>JOHNE DOE</span>
+                    </p>
+                  </div>
+                  <div class="item__footer__comment">
+                    <i class="las la-comment"></i>
+                    <span>COMMENT 15</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="item">
             <div class="blog__item">
               <div class="blogItem__container">
                 <div class="item__header">
@@ -642,97 +752,37 @@
                 </div>
                 <div class="item__footer">
                   <div class="item__footer__author">
-                    <i class="fa-solid fa-user"></i>
+                    <i class="las la-user-circle"></i>
                     <span>BY</span>
                     <span>JOHNE DOE</span>
                   </div>
                   <div class="item__footer__comment">
-                    <i class="fa-solid fa-comment"></i>
+                    <i class="las la-comment"></i>
                     <span>COMMENT 15</span>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="item">
-            <div class="blog__item">
-              <div class="blogItem__container">
-                <div class="item__header">
-                  <img src="./image/pic1_1.jpg" alt="" />
-                  <div class="item__date">
-                    <span>23 MARCH 2022</span>
-                  </div>
-                </div>
-
-                <div class="item__main">
-                  <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                  <p>
-                    Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
-                    ac aliquam. Phasellus justo
-                  </p>
-                </div>
-                <div class="item__footer">
-                  <div class="item__footer__author">
-                    <i class="fa-solid fa-user"></i>
-                    <span>BY</span>
-                    <span>JOHNE DOE</span>
-                  </div>
-                  <div class="item__footer__comment">
-                    <i class="fa-solid fa-comment"></i>
-                    <span>COMMENT 15</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="blog__item">
-              <div class="blogItem__container">
-                <div class="item__header">
-                  <img src="./image/pic1_1.jpg" alt="" />
-                  <div class="item__date">
-                    <span>23 MARCH 2022</span>
-                  </div>
-                </div>
-
-                <div class="item__main">
-                  <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-                  <p>
-                    Nunc convallis sagittis dui eu dictum. Cras sodales id ipsum
-                    ac aliquam. Phasellus justo
-                  </p>
-                </div>
-                <div class="item__footer">
-                  <div class="item__footer__author">
-                    <i class="fa-solid fa-user"></i>
-                    <span>BY</span>
-                    <span>JOHNE DOE</span>
-                  </div>
-                  <div class="item__footer__comment">
-                    <i class="fa-solid fa-comment"></i>
-                    <span>COMMENT 15</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
     <!-- FOOTER  -->
     <footer>
       <section class="form-container">
-        <header class="footer__top">
+        <header class="footer__top wow animate__animated animate__fadeInUp">
           <h2 class="headding__top">Subscribe To Our Newsletter</h2>
           <form action="#">
             <input type="text" placeholder="Your Email Address" />
             <button class="btn__gradient">
-              <i class="fa-solid fa-plane"></i>
+              <i class="las la-paper-plane"></i>
             </button>
           </form>
         </header>
-        <div class="footer__bottom">
-          <div class="footer__item">
+        <div
+          class="footer__bottom wow animate__animated animate__fadeIn animate__delay-1s"
+        >
+          <div class="footer__item ">
             <a href="#">
               <img src="./image/logo-white.png" alt="" />
             </a>
@@ -763,7 +813,7 @@
               </li>
             </ul>
           </div>
-          <div class="footer__item">
+          <div class="footer__item ">
             <h3>Our links</h3>
             <ul>
               <li>
@@ -879,16 +929,22 @@
             <a href="#">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="">
+            <a href="#">
               <i class="fab fa-instagram"></i>
             </a>
-            <a href="">
+            <a href="#">
               <i class="fab fa-twitter"></i>
             </a>
           </div>
         </div>
       </div>
     </footer>
+    <!-- Back-to-top -->
+    <div>
+      <a href="#" class="backtotop cd-top text-replace js-cd-top">
+        <i class="fa fa-arrow-up"></i>
+      </a>
+    </div>
     <!-- JQUERY -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
@@ -897,19 +953,25 @@
       referrerpolicy="no-referrer"
     ></script>
     <!-- JQUERY  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- Jquery waypoints import duoi thu vien jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
-    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- OWL JS -->
     <script src="./js/owl.carousel.min.js"></script>
     <script>
       $(".owl-carousel").owlCarousel({
         loop: true,
-        margin: 10,
+        margin: 30,
         dots: false,
         nav: false,
         responsive: {
@@ -934,14 +996,14 @@
         slidesPerView: 3,
         freeMode: true,
         centeredSlides: true,
-        autoplay:true,
+        autoplay: true,
         speed: 3000,
       });
       var swiper2 = new Swiper(".mySwiper2", {
         loop: true,
         spaceBetween: 10,
-        autoplay:true,
-        speed:3000,
+        autoplay: true,
+        speed: 3000,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -978,10 +1040,17 @@
         }
       }
     </script> -->
- <!-- CountUp js -->
- <script src="./js/jquery.countup.min.js"></script>
- <script>
-     $('.counter').countUp();
- </script>
+    <!-- CountUp js -->
+    <script src="./js/jquery.countup.min.js"></script>
+    <script>
+      $(".counter").countUp();
+    </script>
+    <!-- BACK-TO-TOP -->
+    <script src="./js/util.js"></script>
+    <script src="./js/main-backtotop.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
